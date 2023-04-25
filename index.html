@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <header>
+        <nav>
+             <div class="logo">
+                  <h2>Stunting Center</h2>
+             </div>
+             <ul>
+                  <li><a href="#">Beranda</a></li>
+                  <li><a href="#">Artikel</a></li>
+                  <li><a href="#">Tips Kesehatan</a></li>
+                  <li><a href="#">Forum Diskusi</a></li>
+                  <li><a href="#">BMI</a></li>
+                  <li><a href="#">Food</a></li>
+                  <li><a href="#" class="login">Login</a></li>
+             </ul>
+             <div class="menu-toggle">
+                  <input type="checkbox" />
+                  <span></span>
+                  <span></span>
+                  <span></span>
+             </div>
+        </nav>
+        <div class="hero">
+            <div class="hero-left">
+                <h2 class="syunting">Stunting Information Center</h2>
+                <p class="syunting">Kami percaya bahwa stunting adalah masalah yang kompleks dan memerlukan pendekatan holistik untuk mengatasinya.</p>
+                <button class="syunting-btn">Get Started</button>
+            </div>
+        </div>
+   </header>
+
+     <!-- Section tentang kami -->
+     <section id="about" class="about">
+        <h2><span></span></h2>
+        <div class="row">
+            <div class="about-img">
+                <img src="img/about.jpg.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Kenapa Harus Kami?</h3>
+                <p id="description">Stunting Informasi Center merupakan sebuah website yang bergerak dibidang kesehatan.
+                Website ini menyediakan berbagai fitur yang dapat digunakan secara gratis oleh pengguna. 
+                Stunting Information Center hadir untuk dapat berbagi informasi penting mengenai stunting kepada user
+                dan menyediakan ruang diskusi bagi user yang mengalami kesulitan, baik dalam pencegahan stunting maupun pengobatan stunting. </p>
+        <p>Tetap pantau website ini untuk update lebih lanjut!</p>
+            <a id="link" href="https://skilvul.com">Kunjungi Skilvul</a>
+        </div>
+    </section>
+    <!-- Section tentang kami end -->
+    <form action="/submit" method="post">
+    <div class="contact" id="contacts">
+        <h1>Contact</h1>
+        <div class="form-group">
+            <label for="nama">Nama</label>
+            <input type="text" name="nama" id="name" placeholder="Masukkan Nama Anda">
+        </div>
+        <div class="form-group">
+            <label for="city">Kota</label>
+            <input type="text" id="city" placeholder="Masukkan Asal Kota Anda">
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Masukkan Email Anda">
+        </div>
+        <div class="form-group">
+            <label for="zip-code">Kode Pos</label>
+            <input type="number" id="zip-code" placeholder="Masukkan Kode Pos Anda">
+        </div>
+        <label id="check">Dengan ini saya menyatakan data yang diisi pada form ini adalah benar dan telah sesuai</label>
+            <input type="checkbox" id="status">
+            <button type="submit" id="submit-form">Submit</button>
+            <div id="warning"></div>
+            <div class="form-group">
+            <button>Submit</button>
+        </div>
+    </div>
+    </form>
+
+        <section class="artikel" id="artikel">
+            <div class="artikel-left">
+                <h2>Dapatkan artikel menarik dari kami</h2>
+                <img src="./img/female-doctor-with-kid_23-2147792967.avif" alt="">
+                <button>Lihat Semua Artikel</button>
+            </div>
+            <div class="artikel-right">
+                <img src="./img/female-doctor-with-kid_23-2147792967.avif" alt="">
+            </div>
+        </section>
+   </main>
+
+
+</div>
+</body>
+</html>
